@@ -53,12 +53,118 @@ a {
     line-height: 26px;
     font-family: 'Work Sans';
     color: #444343;
-    max-width: 500px ;
+    max-width: 500px;
     margin: auto;
     margin-right: 0;
     margin-bottom: 35px;
 }
-.banner-content{
+
+.banner-content {
     padding: 210px 230px;
     text-align: right;
+}
+
+/* failures-area */
+main {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.failures-area {
+    margin-top: 100px;
+}
+
+.failures-content {
+    display: flex;
+    align-items: center;
+    gap: 85px;
+}
+
+.failures-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    font-family: 'Work Sans';
+    color: #151414;
+    margin-bottom: 25px;
+}
+
+.failures-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Work Sans';
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failures-content ul li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Work Sans';
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+.failures-content ul li i {
+    color: #16D887;
+    margin-right: 10px;
+}
+
+.failures-content .image {
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.failures-content .image img {
+    opacity: 1;
+}
+
+.failures-content .image::after {
+    position: absolute;
+    content: "";
+    background: rgba(241, 91, 34, 0.2);
+    width: 93%;
+    height: 72%;
+    border-radius: 50%;
+    left: 4%;
+    top: 27%;
+    opacity: .6;
+}
+
+/* planing-area */
+.planing-area .title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    font-family: 'Work Sans';
+    color: #151414;
+    text-align: center;
+}
+
+.planing-area .planing-content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.planing-content .planing-subject h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    font-family: 'Work Sans';
+    color: #151414;
+    margin-top: 30px;
+}
+
+.planing-content .planing-subject p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+    font-family: 'Work Sans';
+    color: #737272;
+    margin-top: 16px;
 }

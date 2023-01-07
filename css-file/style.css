@@ -63,7 +63,13 @@ a {
     padding: 210px 230px;
     text-align: right;
 }
-
+.banner-content .button a{
+    transition: all .5s ease-in-out;
+}
+.banner-content .button a:hover{
+    color:  #FD6E0A;
+    background-color: #FFFFFF;
+}
 /* failures-area */
 main {
     max-width: 1150px;
@@ -205,7 +211,12 @@ main {
 .gardient-area .contant .button a {
     background: #FFFFFF;
     color: #F15B22;
+    transition: all .5s ease-in-out;
 
+}
+.gardient-area .contant .button a:hover {
+    background: #F15B22;
+    color: #FFFFFF;
 }
 
 .gardient-area .contant h1 {
@@ -307,8 +318,15 @@ main {
     border-radius: 8px;
     outline: none;
 }
-.subscribe-from .button a{
+
+.subscribe-from .button a {
     margin-top: 16px;
     background: #FFFFFF;
     color: #F15B22;
+    transition: all .5s ease-in-out;
+}
+
+.subscribe-from .button a:hover {
+    background: #F15B22;
+    color: #FFFFFF;
 }

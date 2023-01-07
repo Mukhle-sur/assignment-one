@@ -130,7 +130,8 @@ main {
     border-radius: 50%;
     left: 4%;
     top: 27%;
-    opacity: .6;
+    opacity: .9;
+    z-index: -1;
 }
 
 /* planing-area */
@@ -151,7 +152,7 @@ main {
 
 }
 
-.planing-content .planing-subject h2 {
+.planing-content .planing-subject h3 {
     font-size: 30px;
     font-weight: 700;
     line-height: 35px;
@@ -167,4 +168,147 @@ main {
     font-family: 'Work Sans';
     color: #737272;
     margin-top: 16px;
+}
+
+/* gardient-area */
+.gardient-area {
+    margin-top: 100px;
+}
+
+.gardient-area .gardient-banner {
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.gardient-area .gardient-banner::before {
+    position: absolute;
+    content: "";
+    background: url(../images/gradient2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .9;
+    z-index: -1;
+}
+
+.gardient-area .contant {
+    padding: 60px 65px;
+}
+
+.gardient-area .contant .button a {
+    background: #FFFFFF;
+    color: #F15B22;
+
+}
+
+.gardient-area .contant h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    font-family: 'Work Sans';
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    max-width: 460px;
+}
+
+/* footer-area */
+.footer-area {
+    margin-top: 100px;
+    background-color: #151414;
+}
+
+.footer-contant {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 0px;
+}
+
+.future .title-info h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    font-family: 'Work Sans';
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.future .title-info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Work Sans';
+    color: #FFFFFF;
+    max-width: 490px;
+}
+
+.future .info {
+    margin-top: 25px;
+}
+
+.future .info .contact p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Work Sans';
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.future .icon ul {
+    display: flex;
+}
+
+.future .icon ul li {
+    margin-right: 17px;
+}
+
+.future .icon ul li a i {
+    font-size: 24px;
+    margin-top: 16px;
+    width: 46px;
+    height: 46px;
+    background: #F8F8F8;
+    border-radius: 50%;
+    text-align: center;
+    padding: 11px 10px;
+    color: blue;
+}
+
+.future .icon ul li:last-child a i {
+    color: red;
+}
+
+.subscribe-from .title h3 {
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: 600;
+    font-family: 'Work Sans';
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.subscribe-from form input {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    font-family: 'Work Sans';
+    color: #F3F3F3;
+    padding: 22px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    outline: none;
+}
+.subscribe-from .button a{
+    margin-top: 16px;
+    background: #FFFFFF;
+    color: #F15B22;
 }
